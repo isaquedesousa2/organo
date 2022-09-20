@@ -1,0 +1,26 @@
+.rodape {
+    background-color: #6278f7;
+    text-align: center;
+}
+
+.rodape .imagem {
+    width: 100%;
+    height: 250px;
+    background-image: url('../../../public/images/fundo.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape .imagem .social {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.rodape .imagem .titulo {
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+}
